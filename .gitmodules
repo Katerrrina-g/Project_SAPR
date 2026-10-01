@@ -1,0 +1,3 @@
+[submodule "libs/kicad-library"]
+	path = libs/kicad-library
+	url = https://github.com/Katerrrina-g/library_sapr.git

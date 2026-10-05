@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "UGO") (type "KiCad") (uri "${KIPRJMOD}/libs/kicad-library/UGO.kicad_sym") (options "") (descr ""))
+)

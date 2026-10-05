@@ -2,13 +2,7300 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 5e44759f-c3a3-4c78-a890-fa400a3c2cf8)
-	(paper "A4")
-	(lib_symbols)
+	(uuid "5e44759f-c3a3-4c78-a890-fa400a3c2cf8")
+	(paper "A1")
+	(lib_symbols
+		(symbol "UGO:ADP2301AUJZ-R7"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "DA"
+				(at 2.25 0.25 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ADP2301AUJZ-R7_0_1"
+				(rectangle
+					(start 0 -1)
+					(end 15 -14)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ADP2301AUJZ-R7_1_1"
+				(text "ADP2301AUJZ-R7"
+					(at 7.25 -15.5 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(pin input line
+					(at 17 -2.5 180)
+					(length 2)
+					(name "BST"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2 -12.5 0)
+					(length 2)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17 -12.5 180)
+					(length 2)
+					(name "FB"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2 -7.5 0)
+					(length 2)
+					(name "EN"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2 -2.5 0)
+					(length 2)
+					(name "VIN"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17 -7.5 180)
+					(length 2)
+					(name "SW"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UGO:ADP5071"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "DA"
+				(at 1.75 0.5 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ADP5071AREZ"
+				(at 6.75 -40.75 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ADP5071_0_1"
+				(rectangle
+					(start 0 -1)
+					(end 22.5 -39)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ADP5071_1_1"
+				(pin power_in line
+					(at 24.5 -32.5 180)
+					(length 2)
+					(name "PGND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 24.5 -7.5 180)
+					(length 2)
+					(name "SW1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 24.5 -2.5 180)
+					(length 2)
+					(name "INBK"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2 -5 0)
+					(length 2)
+					(name "SYNC/FREQ"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2 -20 0)
+					(length 2)
+					(name "SEQ"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2 -7.5 0)
+					(length 2)
+					(name "SLEW"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 24.5 -12.5 180)
+					(length 2)
+					(name "FB1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2 -15 0)
+					(length 2)
+					(name "COMP1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2 -10 0)
+					(length 2)
+					(name "EN1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2 -2.5 0)
+					(length 2)
+					(name "SS"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2 -12.5 0)
+					(length 2)
+					(name "EN2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2 -17.5 0)
+					(length 2)
+					(name "COMP2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 24.5 -22.5 180)
+					(length 2)
+					(name "FB2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 24.5 -27.5 180)
+					(length 2)
+					(name "VREF"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 24.5 -35 180)
+					(length 2)
+					(name "AGND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2 -27.5 0)
+					(length 2)
+					(name "VREG"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2 -32.5 0)
+					(length 2)
+					(name "PVIN1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2 -37.5 0)
+					(length 2)
+					(name "PVINSYS"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2 -35 0)
+					(length 2)
+					(name "PVIN2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 24.5 -17.5 180)
+					(length 2)
+					(name "SW2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 24.5 -37.5 180)
+					(length 2)
+					(name "EP(AGND)"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UGO:C_gost"
+			(pin_names
+				(offset 0.25)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at -2.25 0.75 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_gost_0_1"
+				(polyline
+					(pts
+						(xy 0 1.5) (xy 8 1.5)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 8 0)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_gost_1_1"
+				(pin passive line
+					(at 4 4.456 270)
+					(length 3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 4 -2.956 90)
+					(length 3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UGO:ISOUSB"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "DA"
+				(at 2.25 0.5 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ISOUSB211"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ISOUSB_0_1"
+				(rectangle
+					(start 0 -1)
+					(end 22.5 -31.5)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ISOUSB_1_1"
+				(text "ISOUSB211"
+					(at 5 -33 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2 -17.5 0)
+					(length 2)
+					(name "VBUS1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2 -22.5 0)
+					(length 2)
+					(name "V3P3V1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2 -27.5 0)
+					(length 2)
+					(name "GND1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2 -20 0)
+					(length 2)
+					(name "VCC1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2 -7.5 0)
+					(length 2)
+					(name "V2OK"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2 -2.5 0)
+					(length 2)
+					(name "UD-"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2 -5 0)
+					(length 2)
+					(name "UD+"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2 -10 0)
+					(length 2)
+					(name "EQ10"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2 -12.5 0)
+					(length 2)
+					(name "EQ11"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2 -25 0)
+					(length 2)
+					(name "V1P8V1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2 -30 0)
+					(length 2)
+					(name "GND1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2 -15 0)
+					(length 2)
+					(name "CDPENZ1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.5 -15 180)
+					(length 2)
+					(name "CDPENZ2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 24.5 -27.5 180)
+					(length 2)
+					(name "GND2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 24.5 -12.5 180)
+					(length 2)
+					(name "EQ21"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 24.5 -10 180)
+					(length 2)
+					(name "EQ20"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.5 -5 180)
+					(length 2)
+					(name "DD+"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.5 -2.5 180)
+					(length 2)
+					(name "DD-"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 24.5 -7.5 180)
+					(length 2)
+					(name "V1OK"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 24.5 -20 180)
+					(length 2)
+					(name "VCC2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 24.5 -25 180)
+					(length 2)
+					(name "V1P8V2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 24.5 -30 180)
+					(length 2)
+					(name "GND2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 24.5 -22.5 180)
+					(length 2)
+					(name "V3P3V2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 24.5 -17.5 180)
+					(length 2)
+					(name "VBUS2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UGO:LM3671M-ADJ"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "DA"
+				(at 2.25 0.25 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LM3671M-ADJ_0_1"
+				(rectangle
+					(start 0 -1)
+					(end 15 -9)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LM3671M-ADJ_1_1"
+				(text "LM3671M-ADJ"
+					(at 5.75 -10.5 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2 -2.5 0)
+					(length 2)
+					(name "VIN"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2 -7.5 0)
+					(length 2)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2 -5 0)
+					(length 2)
+					(name "EN"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17 -7.5 180)
+					(length 2)
+					(name "FB"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17 -2.5 180)
+					(length 2)
+					(name "SW"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UGO:MDS01L-05N"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "DA"
+				(at 2.5 1.25 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MDS01L-05N_0_1"
+				(rectangle
+					(start 0 0)
+					(end 22.5 -10.75)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MDS01L-05N_1_1"
+				(text "MDS01L-05N"
+					(at 5.75 -12.5 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2 -1.5 0)
+					(length 2)
+					(name "+Vin"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2 -9 0)
+					(length 2)
+					(name "-Vin"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 24.5 -9 180)
+					(length 2)
+					(name "-Vout"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 24.5 -1.5 180)
+					(length 2)
+					(name "+Vout"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UGO:R_gost"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at -2 5 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_gost_0_1"
+				(rectangle
+					(start -0.016 9.98)
+					(end 3.984 -0.02)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_gost_1_1"
+				(pin passive line
+					(at 2 13 270)
+					(length 3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2 -2.98 90)
+					(length 3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UGO:TPS7A3001DGNR"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "DA"
+				(at 2 1.25 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPS7A3001DGNR_0_1"
+				(rectangle
+					(start 0 0)
+					(end 15 -10.5)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TPS7A3001DGNR_1_1"
+				(text "TPS7A3001DGNR"
+					(at 6.75 -12 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17 -1.5 180)
+					(length 2)
+					(name "VOUT"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17 -4 180)
+					(length 2)
+					(name "FB"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17 -6.5 180)
+					(length 2)
+					(name "NC"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17 -9 180)
+					(length 2)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2 -4 0)
+					(length 2)
+					(name "EN"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2 -9 0)
+					(length 2)
+					(name "NR/SS"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2 -6.5 0)
+					(length 2)
+					(name "DNC"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2 -1.5 0)
+					(length 2)
+					(name "VIN"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UGO:TPS7A4901DGNR"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "DA"
+				(at 1.75 0.25 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPS7A4901DGNR_0_1"
+				(rectangle
+					(start 0 -1)
+					(end 15 -11.5)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TPS7A4901DGNR_1_1"
+				(text "TPS7A4901DGNR"
+					(at 6.75 -13 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17 -2.5 180)
+					(length 2)
+					(name "VOUT"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17 -5 180)
+					(length 2)
+					(name "FB"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17 -7.5 180)
+					(length 2)
+					(name "NC"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17 -10 180)
+					(length 2)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2 -5 0)
+					(length 2)
+					(name "EN"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2 -10 0)
+					(length 2)
+					(name "NR/SS"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2 -7.5 0)
+					(length 2)
+					(name "DNC"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.96 -2.5 0)
+					(length 2)
+					(name "VIN"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "UGO:R_gost")
+		(at 295.55 397.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02b3a910-fa1b-4d51-8477-832dfb2c5400")
+		(property "Reference" "R6"
+			(at 300.34 392.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 295.55 397.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.55 397.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.55 397.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 295.55 397.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d561c807-5426-4414-a4ac-bff583ef2004")
+		)
+		(pin "1"
+			(uuid "7313be0d-348c-4fb9-80fc-07d287f055c8")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 539 270 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02e11f52-7d4a-45d2-a8a8-89c8f6ca6184")
+		(property "Reference" "C28"
+			(at 537.55 269.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 539 270 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 539 270 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 539 270 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 539 270 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "007adb2e-5191-4b24-a492-a37d8035c447")
+		)
+		(pin "1"
+			(uuid "0bd78f61-c60a-4223-b36d-ec96fe58a259")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:R_gost")
+		(at 321.55 387.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03df701f-7c52-4d29-9802-5b5496861f6a")
+		(property "Reference" "R7"
+			(at 316.57 381.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 321.55 387.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 321.55 387.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.55 387.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 321.55 387.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8223a66f-91df-4bd6-991e-da9ea8ead604")
+		)
+		(pin "1"
+			(uuid "48034689-6ee9-4502-aa76-fd06cb466e50")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 323 282 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d0799a1-3dbc-4b8a-bb6c-d4b0377cb43f")
+		(property "Reference" "C13"
+			(at 321.08 281.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 323 282 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 323 282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323 282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 323 282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "549befa5-a79b-4713-8a74-3507a01d07eb")
+		)
+		(pin "1"
+			(uuid "b15706d8-7f7d-474f-b3f3-dd3af388bd01")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:R_gost")
+		(at 242.5 270.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ebbbd2d-03e7-4a39-817d-60b6489500e3")
+		(property "Reference" "R1"
+			(at 237.52 264.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 242.5 270.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.5 270.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.5 270.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 242.5 270.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d70db89a-3c5a-4406-a1cc-b4010432a776")
+		)
+		(pin "1"
+			(uuid "620e5179-a2b6-478e-817c-69ea62131f7c")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:R_gost")
+		(at 277.55 436.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1165e3cb-2b9a-4b67-9346-b2720fa0cf23")
+		(property "Reference" "R5"
+			(at 272.57 430.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 277.55 436.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 277.55 436.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 277.55 436.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 277.55 436.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc7b5dee-23c2-4972-ac83-91af5ff650bd")
+		)
+		(pin "2"
+			(uuid "5a6c2524-d2e3-4502-a08f-16b5afb0688f")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 478 428.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "175d0e0c-0e03-4c38-9879-8b156499c026")
+		(property "Reference" "C23"
+			(at 476.05 427.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 478 428.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 478 428.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 478 428.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 478 428.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f0c7aa2b-a6ce-438d-a17a-04ff051bb5d4")
+		)
+		(pin "1"
+			(uuid "a3f2ec98-7b48-4e74-9f35-1b6a06856a1d")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:R_gost")
+		(at 553 431 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a9a1553-33a6-437e-8447-96c66d3da4a3")
+		(property "Reference" "R14"
+			(at 558.6 426.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 553 431 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 553 431 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 553 431 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 553 431 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2c1a375-3bab-4d8d-a20e-b295f22fe1a5")
+		)
+		(pin "2"
+			(uuid "d47dea11-2a56-4e07-b77a-99ea90c2850d")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:TPS7A3001DGNR")
+		(at 506 425 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25ab94e8-7475-473c-a71b-be873d5a5fee")
+		(property "Reference" "DA7"
+			(at 513.5 422.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 506 425 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 506 425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 506 425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 506 425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "1f8814c4-1950-4fdc-b89f-240293b1602d")
+		)
+		(pin "2"
+			(uuid "62baeb90-c82f-4aa7-bf25-9295d13a00e3")
+		)
+		(pin "7"
+			(uuid "24e689a7-e353-41da-ad7c-0bfef70099d1")
+		)
+		(pin "4"
+			(uuid "851ad89e-a987-486c-837c-d857edbc36c6")
+		)
+		(pin "5"
+			(uuid "8d318907-3c44-4534-b074-34013bcf47a9")
+		)
+		(pin "6"
+			(uuid "957ff4ce-8985-46f5-ac22-2195b9a02a08")
+		)
+		(pin "1"
+			(uuid "557d1e71-df0b-4197-9eb5-6385fcff0616")
+		)
+		(pin "3"
+			(uuid "806ce483-7f77-4b7a-a9ab-a441f79451aa")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "DA7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:R_gost")
+		(at 489 271 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3192c556-3862-4c98-a3f0-d7ca52a4292a")
+		(property "Reference" "R10"
+			(at 494.37 266.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 489 271 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 489 271 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 489 271 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 489 271 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "919c6bf8-ba36-44f0-abb3-c199bc5f4cae")
+		)
+		(pin "1"
+			(uuid "484715dd-1e43-433e-9788-06bd45d123f0")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 240 282 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d1271ce-fe08-4c1c-bb96-8b38edb23fe7")
+		(property "Reference" "C7"
+			(at 239.1 281.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 240 282 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240 282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240 282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 240 282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6416b864-ca54-4759-8bc5-5d2f09f724bc")
+		)
+		(pin "1"
+			(uuid "4f5305d1-3268-423e-82c5-6e9d3916859d")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:R_gost")
+		(at 273.5 165.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3eb98872-d4e2-43df-8b04-f826a86b70ad")
+		(property "Reference" "R4"
+			(at 268.52 158.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 273.5 165.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.5 165.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.5 165.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 273.5 165.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d4e9ce5-5d2a-4222-80d6-0bed0e642ee2")
+		)
+		(pin "2"
+			(uuid "7cf95bf0-7787-43a1-94eb-e306326eb5fa")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:R_gost")
+		(at 568 185 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f1de64f-7f3f-4b28-9e07-05c0ec3b2960")
+		(property "Reference" "R16"
+			(at 572.92 180.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 568 185 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 568 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 568 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 568 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c6167f46-e470-430c-ae91-726363f79ed0")
+		)
+		(pin "1"
+			(uuid "9146c3a6-efeb-4e18-ba30-b1341bc66755")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 221.55 399.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40ae5852-0cdf-4b06-8e66-143d719d27b2")
+		(property "Reference" "C2"
+			(at 220.33 399.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 221.55 399.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 221.55 399.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 221.55 399.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 221.55 399.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8758b3a7-4b12-4b24-99a5-cdea502eb396")
+		)
+		(pin "1"
+			(uuid "1e840cab-8344-4161-85e5-8d018ae69b9a")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:R_gost")
+		(at 553 450 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4203e3fe-53da-4100-b1eb-d8d5bca61be9")
+		(property "Reference" "R15"
+			(at 558.6 445.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 553 450 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 553 450 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 553 450 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 553 450 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3ef33c46-9ea8-448d-93ef-9fc10c88f19d")
+		)
+		(pin "1"
+			(uuid "e4737e37-8468-4b30-9ea3-bf033707da11")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:R_gost")
+		(at 556 347.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4497468a-42ec-4532-926b-3dec405c8445")
+		(property "Reference" "R12"
+			(at 561.33 342.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 556 347.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 556 347.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 556 347.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 556 347.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "466dfbbe-23c6-426f-81ed-00ece211bf17")
+		)
+		(pin "2"
+			(uuid "ed1cf229-d170-48c1-9e86-55fb051baf2c")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:ADP5071")
+		(at 260.5 382.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "510548af-7e76-4e8e-b841-e0c7bb0998d3")
+		(property "Reference" "DA3"
+			(at 271.75 378.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADP5071AREZ"
+			(at 271.75 381.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.5 382.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.5 382.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 260.5 382.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "ba627808-5683-446d-8810-47fb8892d08d")
+		)
+		(pin "7"
+			(uuid "f3a04212-b4de-4ed4-995a-eb81b0ddf189")
+		)
+		(pin "13"
+			(uuid "f8955eb5-540e-46be-8b0d-331abce6d7d7")
+		)
+		(pin "2"
+			(uuid "06b2c8f5-f38e-442a-accd-78a751c9b5fe")
+		)
+		(pin "4"
+			(uuid "8991dace-9fff-4d0b-9f92-cfc113cadd28")
+		)
+		(pin "1"
+			(uuid "ea6f184f-ef2f-4134-b068-b380ff7472b4")
+		)
+		(pin "14"
+			(uuid "edc5ae87-4436-431b-af54-3717b6cd8994")
+		)
+		(pin "16"
+			(uuid "cbf18862-cff8-4738-a022-161c5466285f")
+		)
+		(pin "18"
+			(uuid "9489fb56-09ac-4c81-b3bf-1af307c121f8")
+		)
+		(pin "10"
+			(uuid "24691650-9549-44ca-a0d3-9f77d79600f7")
+		)
+		(pin "3"
+			(uuid "b56f3883-aaed-4cb1-8294-62f2c0010750")
+		)
+		(pin "8"
+			(uuid "205f3296-886e-4a39-a590-90f140b53acc")
+		)
+		(pin "6"
+			(uuid "dcc347a3-22f6-49ae-be09-7af1a8a741b1")
+		)
+		(pin "19"
+			(uuid "6b530a09-be5e-46d5-8d1b-22aaaa5f6c78")
+		)
+		(pin "15"
+			(uuid "6102c105-41a7-4982-9165-c53c055ea896")
+		)
+		(pin "5"
+			(uuid "a7d2b6cf-6ed4-433a-a91e-ab39e8172a0b")
+		)
+		(pin "9"
+			(uuid "2122ccd9-14de-4ace-b1d8-99a34cef0edb")
+		)
+		(pin "11"
+			(uuid "15560201-156f-4366-85ba-7f85e0b3b785")
+		)
+		(pin "17"
+			(uuid "eb560d6f-23af-4afa-85e6-64ee50d30aec")
+		)
+		(pin "20"
+			(uuid "7205f747-8278-48be-8472-7b655bde7e3d")
+		)
+		(pin "21"
+			(uuid "c40a05db-a592-49d3-9ae9-7871b4a7282f")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "DA3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 355 282 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "540e94c1-9a8f-4706-8b16-417dee7130f7")
+		(property "Reference" "C15"
+			(at 353.4 281.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 355 282 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355 282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355 282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 355 282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8db39b4-7525-48b4-9aa9-d4aa5ecbba5d")
+		)
+		(pin "2"
+			(uuid "d6355b2a-b429-4d3d-8103-01529dd460e3")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 472 179 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dbdf50e-ae5b-4066-a02f-84db7d1e83f4")
+		(property "Reference" "C20"
+			(at 470.05 178.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 472 179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 472 179 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 472 179 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 472 179 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f22d1c36-c047-4023-b382-8e4255da3934")
+		)
+		(pin "2"
+			(uuid "fe7dabc9-6b15-488f-9efa-1b6911716f76")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 495 361 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "627580cc-74d3-4472-b827-381c88d87a61")
+		(property "Reference" "C24"
+			(at 494.09 360.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 495 361 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 495 361 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 495 361 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 495 361 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34c70d3a-7a79-405c-a7da-04f35aa5b985")
+		)
+		(pin "2"
+			(uuid "e9718d05-eb2d-4b6c-9ae6-e68c0cd742ef")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 553 189 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "699ec38f-5b56-436e-ac17-67965f2f3c40")
+		(property "Reference" "C30"
+			(at 551.33 188.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 553 189 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 553 189 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 553 189 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 553 189 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d0c6240b-c3e2-4f0e-ac58-b79b0648df9a")
+		)
+		(pin "1"
+			(uuid "d731f75b-6716-4589-b34f-b1bc96d32e0f")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 476 273 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d6a0115-b719-485a-b914-c8a03daf6f28")
+		(property "Reference" "C21"
+			(at 474.05 272.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 476 273 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 476 273 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 476 273 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 476 273 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ea766a8-bc63-423c-a65b-771465e96559")
+		)
+		(pin "2"
+			(uuid "4981d58d-8949-4b08-97ee-79cc7f4e19b5")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 338 282 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ec9fe5d-a43d-4102-98e4-b2477e1ec9dd")
+		(property "Reference" "C14"
+			(at 336.32 281.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 338 282 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 338 282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 338 282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 338 282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c1f2c476-643e-4255-8b44-840afcc96ddd")
+		)
+		(pin "1"
+			(uuid "9b30b786-5ee7-4a52-ab5b-88933f2c0287")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 303 282 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fd8ecb5-1967-4e77-adb0-c0d988dc9d73")
+		(property "Reference" "C11"
+			(at 301.33 281.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 303 282 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 303 282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303 282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 303 282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aeb61711-9079-43a8-97ca-5c8d6a4b9c6b")
+		)
+		(pin "1"
+			(uuid "ee32d118-0354-47d0-8daa-14a95c954de0")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 221.55 436.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7446befa-beeb-429c-9f57-0ef40442a796")
+		(property "Reference" "C5"
+			(at 220.33 436.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 221.55 436.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 221.55 436.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 221.55 436.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 221.55 436.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aa9331d5-bf87-4699-82ea-177f9ed52983")
+		)
+		(pin "1"
+			(uuid "80ce3c5c-6bcc-436d-8d67-d799174bfd9b")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 576 350.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77568263-2ed9-44d7-949d-79744924a4dc")
+		(property "Reference" "C31"
+			(at 574.03 349.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 576 350.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 576 350.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 576 350.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 576 350.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "144dab35-8aa4-4050-8e07-feb55c6548a3")
+		)
+		(pin "2"
+			(uuid "43a2e775-1b1c-4f29-8581-f14e72129ee0")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:R_gost")
+		(at 489 291 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bc46b5d-6fc2-4c31-aff0-f804ca99ae07")
+		(property "Reference" "R11"
+			(at 494.37 286.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 489 291 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 489 291 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 489 291 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 489 291 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a3392a9-fc69-4a2f-94b3-953eef166a98")
+		)
+		(pin "2"
+			(uuid "5b4e12d1-2f4f-4d4c-afac-02754eaaf7d2")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 372 282 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87e05a51-70e4-4c00-b3a7-b6fa75c1133c")
+		(property "Reference" "C18"
+			(at 371.18 281.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 372 282 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 372 282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372 282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 372 282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "73e65a30-6920-4e3f-9903-66a1115804be")
+		)
+		(pin "1"
+			(uuid "b9224e6a-26d9-4200-92ab-b947c1dd4e3c")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 318.5 185 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a2dedcc-7fa1-420f-b495-9e3ffe68ab03")
+		(property "Reference" "C12"
+			(at 317.34 184.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 318.5 185 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.5 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.5 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 318.5 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94ed3d54-4081-43fa-8926-27fd26884347")
+		)
+		(pin "2"
+			(uuid "f9dc7cba-cfaa-420c-b7ba-ff8d8d7fcd02")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:R_gost")
+		(at 603 273 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f765955-18eb-488a-b286-40190f56b237")
+		(property "Reference" "R18"
+			(at 608.67 268.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 603 273 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 603 273 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 603 273 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 603 273 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "af977834-a637-4b8a-b015-e8eb7bccfaa5")
+		)
+		(pin "1"
+			(uuid "640e9f27-500a-4eeb-9981-e9979b577fb1")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:R_gost")
+		(at 246.55 400.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f8b2db5-8f98-46c8-aa6b-9907b27d5e9c")
+		(property "Reference" "R2"
+			(at 241.57 393.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 246.55 400.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.55 400.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.55 400.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 246.55 400.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8502c6c-a7e5-4fe6-9b91-286b32457875")
+		)
+		(pin "2"
+			(uuid "d1eadde7-6f02-45da-9d31-4cb04cd4177f")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:LM3671M-ADJ")
+		(at 500 173.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91620ac2-5046-4400-a3c3-cb5f7f48d7cb")
+		(property "Reference" "DA4"
+			(at 507.5 171.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 500 173.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 500 173.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 500 173.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 500 173.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "70c42f64-4f89-45e3-8f84-2da21c00a99a")
+		)
+		(pin "3"
+			(uuid "01790ae8-bffd-4cd9-a1f8-87680b680bdc")
+		)
+		(pin "4"
+			(uuid "c554df74-6abd-45d9-9b9e-c150ef543fc3")
+		)
+		(pin "1"
+			(uuid "95c6be94-a264-481f-9b97-26b4800553d6")
+		)
+		(pin "5"
+			(uuid "93eae6d5-7132-43de-9e04-8808b8eb4dc4")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "DA4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 388 282 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9782425f-5db1-45c4-96e1-d037724db089")
+		(property "Reference" "C19"
+			(at 386.42 281.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 388 282 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 388 282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388 282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 388 282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44b62837-b302-49e1-ad06-084023daee84")
+		)
+		(pin "2"
+			(uuid "5aa28545-0cf4-4294-ae76-9ce9ef6d3804")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 221.55 411.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9aecd57d-702d-4222-ba41-f67615b392f0")
+		(property "Reference" "C3"
+			(at 220.33 411.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 221.55 411.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 221.55 411.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 221.55 411.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 221.55 411.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b641200-d96f-41a8-a0f2-ce99c893a5d6")
+		)
+		(pin "2"
+			(uuid "09992be5-02f4-4484-8759-77ae2a03527b")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 492 444.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a40341ea-f1a2-4491-b263-c42ef77da5ae")
+		(property "Reference" "C25"
+			(at 490.78 443.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 492 444.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 492 444.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 492 444.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 492 444.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "309d7d6f-65d3-42bd-b22a-7f3a408c27c2")
+		)
+		(pin "1"
+			(uuid "15e4865a-8b6a-4169-bf4c-e8e5df156d2c")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:ADP2301AUJZ-R7")
+		(at 504 266.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a48e6976-8a5d-4faa-aea0-2b25e27eaf7d")
+		(property "Reference" "DA5"
+			(at 511.5 264.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 504 266.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 504 266.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 504 266.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 504 266.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "2f34d5a8-6b04-407b-9ea6-9a55de4a5b16")
+		)
+		(pin "1"
+			(uuid "ab7e2bd8-ff0f-4f15-8e44-86617f1a2bcd")
+		)
+		(pin "2"
+			(uuid "040b7e83-8e7f-4073-a5f5-eeff771d3af9")
+		)
+		(pin "4"
+			(uuid "0afadd5d-a6da-4db8-8a16-b89bb55ea00f")
+		)
+		(pin "5"
+			(uuid "4a2fca0e-d95c-44e9-bc83-3d5bba45ffdc")
+		)
+		(pin "6"
+			(uuid "8c376cc3-ae50-4517-9d06-f5ee9f61e81e")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "DA5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:MDS01L-05N")
+		(at 257.5 179.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7052354-21aa-4310-a7ee-361e9117407c")
+		(property "Reference" "DA1"
+			(at 268.75 176.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 257.5 179.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.5 179.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.5 179.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 257.5 179.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6ba63b3-3430-47b4-87bc-04eaae33afb6")
+		)
+		(pin "2"
+			(uuid "8160d7d0-2c5c-4aa9-a555-71afe972382d")
+		)
+		(pin "5"
+			(uuid "1ba13d91-dfca-49b1-a233-ab5438ae84bc")
+		)
+		(pin "7"
+			(uuid "9a5ae614-89d0-4965-a8d9-9ed190a460eb")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "DA1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 536 350.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a780a302-594c-4e9d-b9e8-d82f9fdecc24")
+		(property "Reference" "C26"
+			(at 535.11 349.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 536 350.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 536 350.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 536 350.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 536 350.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "75fdc14d-d08b-44c5-bdee-1df8ceaf4054")
+		)
+		(pin "1"
+			(uuid "f0432559-fc5a-46ac-afcb-6d3d0edbf1e3")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 238 185.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8cbac6e-9dbc-47df-9b19-8569e33a1337")
+		(property "Reference" "C6"
+			(at 236.83 184.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 238 185.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238 185.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238 185.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 238 185.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84959977-000b-41da-82aa-0ceaed1c07ca")
+		)
+		(pin "2"
+			(uuid "bfbda9b1-0423-4490-9e4d-6f91533ecf87")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:R_gost")
+		(at 373.55 395.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af6f59e8-e0a4-484f-a4c7-e83f06b1fdfc")
+		(property "Reference" "R9"
+			(at 368.57 390.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 373.55 395.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.55 395.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.55 395.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 373.55 395.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d66178f-f6c8-4e6a-9c95-4fb7cf3228c6")
+		)
+		(pin "2"
+			(uuid "f77ffd8e-589f-4496-8458-6e3889f7a1ae")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 332.55 391.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bde71108-4d1f-4243-8594-0cd43d232494")
+		(property "Reference" "C16"
+			(at 330.82 391.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 332.55 391.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 332.55 391.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.55 391.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 332.55 391.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "179dceb9-542f-4139-9927-4a4bfd0894ab")
+		)
+		(pin "2"
+			(uuid "d9fcc849-a858-4584-a3e8-210206680d3a")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:R_gost")
+		(at 346.55 389.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf1e2930-1c02-4e37-8207-f3fd1501e3d5")
+		(property "Reference" "R8"
+			(at 352.41 384.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 346.55 389.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.55 389.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.55 389.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 346.55 389.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97076f1d-8d25-4499-91da-75b6bf7409ff")
+		)
+		(pin "2"
+			(uuid "557c9f0d-e376-4fda-8340-dfd8df235ba6")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 581 179 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0c1d0e8-71cc-4e66-9a15-12313ba5200a")
+		(property "Reference" "C33"
+			(at 579.27 178.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 581 179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 581 179 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 581 179 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 581 179 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "60de0e26-d828-4b21-87a0-82d340871a55")
+		)
+		(pin "1"
+			(uuid "1f0f17fe-0830-4cf6-a450-836a0ab63c54")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 531.5 431.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c123cb03-88f3-43ec-8a95-81516b04ffeb")
+		(property "Reference" "C27"
+			(at 529.51 430.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 531.5 431.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 531.5 431.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 531.5 431.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 531.5 431.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9f10030-83b7-4c51-8ce6-c572d38bee3c")
+		)
+		(pin "2"
+			(uuid "122e4ffb-7199-4b54-b97e-0765b7090b0e")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 332.55 410.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c347f9e5-a712-43a7-a33f-933d14e75b5c")
+		(property "Reference" "C17"
+			(at 330.82 410.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 332.55 410.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 332.55 410.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.55 410.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 332.55 410.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bcac2db2-c456-4ec6-88a9-bb6dc7197a7d")
+		)
+		(pin "2"
+			(uuid "f4e9be94-08f0-431e-a440-8e2daa054934")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:ISOUSB")
+		(at 259 256 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9b6a756-f0ff-48f5-9d50-80ac85927161")
+		(property "Reference" "DA2"
+			(at 270.25 254.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 259 256 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259 256 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259 256 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 259 256 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "10"
+			(uuid "05dfdaf9-c8c6-4edb-834f-8fa94a21b315")
+		)
+		(pin "16"
+			(uuid "124691fa-be62-4072-9f45-53fd29096d74")
+		)
+		(pin "5"
+			(uuid "92d09590-3905-4df3-89b7-483fb6788639")
+		)
+		(pin "8"
+			(uuid "98968048-fdfb-4c54-a68b-ef788b2c4ef6")
+		)
+		(pin "13"
+			(uuid "860cb0ab-970e-4fae-8742-49fd117f52fc")
+		)
+		(pin "12"
+			(uuid "253331aa-8e88-4522-ad8f-2d3606f7f701")
+		)
+		(pin "17"
+			(uuid "a5651726-1399-4813-a79d-58b0b83f9427")
+		)
+		(pin "25"
+			(uuid "109f2d4c-ebff-4c24-b690-68752b07b810")
+		)
+		(pin "1"
+			(uuid "85d87b75-2465-4f03-a13a-881c7ffe44c4")
+		)
+		(pin "6"
+			(uuid "6f7abf36-84fe-4f40-9683-e40a5fad1f67")
+		)
+		(pin "2"
+			(uuid "b6c3758a-a23a-4ec1-9938-098550aefafe")
+		)
+		(pin "3"
+			(uuid "6310b733-a4bc-4572-8a27-b0044a25df8b")
+		)
+		(pin "7"
+			(uuid "9a745ad3-8890-499b-89d8-ed82008571c6")
+		)
+		(pin "9"
+			(uuid "1f5224de-c765-42ac-b5dd-dba5f529cecd")
+		)
+		(pin "11"
+			(uuid "1b6dc6ec-e19d-453b-a77e-6c21e88ffe23")
+		)
+		(pin "20"
+			(uuid "ea7b7f61-a83d-4bfc-9eac-96bdbb68afac")
+		)
+		(pin "21"
+			(uuid "3e411556-9e21-4a0c-acb8-d2906acca2b7")
+		)
+		(pin "22"
+			(uuid "af2ac965-dd23-41a6-af7b-659121b6ab11")
+		)
+		(pin "23"
+			(uuid "09e33c4d-8881-44f8-992c-e86a3bdaadd4")
+		)
+		(pin "19"
+			(uuid "ad84fa4f-c986-484b-a2d7-dc4870beb9eb")
+		)
+		(pin "24"
+			(uuid "dbcc4e7b-5ad1-40b4-973d-868fcfb10f4e")
+		)
+		(pin "27"
+			(uuid "242d4f0d-333b-4560-9346-8a66ded3f2cc")
+		)
+		(pin "26"
+			(uuid "c73ea71e-720c-4300-b559-28ff5e4d7568")
+		)
+		(pin "28"
+			(uuid "0f4507ef-925b-458f-9ca2-7a0e3721d920")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "DA2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:R_gost")
+		(at 611 285 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd836b9a-74a5-40e7-991c-fb1cb2da2a92")
+		(property "Reference" "R19"
+			(at 616.29 280.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 611 285 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 611 285 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 611 285 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 611 285 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "31f7f9e0-3627-4355-8c97-007b5450a5e6")
+		)
+		(pin "1"
+			(uuid "4afa9b67-89ae-4348-9cb8-2955e6ffe46a")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 221.55 423.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce60803b-fe08-4bac-a814-fd8554aba54a")
+		(property "Reference" "C4"
+			(at 220.33 423.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 221.55 423.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 221.55 423.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 221.55 423.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 221.55 423.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "463bcb81-1913-467a-bd40-87f8bcff2aa4")
+		)
+		(pin "1"
+			(uuid "81df520f-306e-4bb2-8e92-5725fb2c215d")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 301 268 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d39e667b-809c-45f1-b728-cb0ddfdb6e2d")
+		(property "Reference" "C10"
+			(at 300.06 267.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 301 268 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 301 268 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 301 268 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 301 268 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a569cc5e-4e02-43f1-a3dd-053da7b5606f")
+		)
+		(pin "1"
+			(uuid "5f700e7c-a22e-4395-8f3e-8397356fe1c7")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 220 274 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d75f7d35-5b81-4380-8fcf-21ce7b03c9ae")
+		(property "Reference" "C1"
+			(at 218.78 273.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 220 274 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220 274 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220 274 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 220 274 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ee268fe-0906-4fd5-8d6e-ed0aa6e0cf4d")
+		)
+		(pin "2"
+			(uuid "38592732-0b6e-4531-be30-43038dc5aab4")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:R_gost")
+		(at 557 367.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8e18d5b-c84b-4be9-bdcd-bd2ced0c109c")
+		(property "Reference" "R13"
+			(at 562.6 362.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 557 367.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 557 367.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 557 367.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 557 367.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7b225c3d-f975-4f1e-a265-1ed93220c617")
+		)
+		(pin "1"
+			(uuid "87a7b7fd-e8ec-43e9-9be8-09e9f8a803a2")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 290.5 185.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc15877e-b597-41ca-8b1b-1488045e1996")
+		(property "Reference" "C8"
+			(at 289.67 184.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 290.5 185.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.5 185.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.5 185.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 290.5 185.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "df25ff9f-d909-49b4-9575-9af65f11d42e")
+		)
+		(pin "1"
+			(uuid "0075fc60-3d0c-4159-b5c0-32c02e98877a")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:R_gost")
+		(at 246.55 411.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df057ca4-c773-4846-882c-96b1e9200a1f")
+		(property "Reference" "R3"
+			(at 241.57 405.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 246.55 411.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.55 411.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.55 411.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 246.55 411.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f2f1e9e0-5e9c-44b9-b1bd-24c39b6d7ac3")
+		)
+		(pin "2"
+			(uuid "aca649a3-98f1-4e94-8595-b27eb17de9d1")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 482 350.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed54059a-ac0f-4792-b7fc-08abd7c1cd9a")
+		(property "Reference" "C22"
+			(at 480.05 349.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 482 350.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 482 350.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 482 350.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 482 350.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cd6d0498-124a-4f13-b247-82836434a8d6")
+		)
+		(pin "1"
+			(uuid "f49f18ec-b1d9-4027-95a7-28aa9ef65191")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 586 272 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4051a7c-ca58-4e62-bf2e-70ac0a816277")
+		(property "Reference" "C34"
+			(at 584.54 271.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 586 272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 586 272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 586 272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 586 272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af343caa-06ac-4dc3-9be6-4f228515ec2e")
+		)
+		(pin "2"
+			(uuid "cd5cfdcb-f046-44a0-aa52-54a557ff8a7e")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:TPS7A4901DGNR")
+		(at 510 343 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f954cf3e-3c67-41a4-a3f3-b6cf66d709c6")
+		(property "Reference" "DA6"
+			(at 517.5 341.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 510 343 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 510 343 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 510 343 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 510 343 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bf34bf3-4b99-4036-b784-1c9389ad62f1")
+		)
+		(pin "2"
+			(uuid "df5b33ef-4e2d-412a-9dd4-121ce70ebdd6")
+		)
+		(pin "3"
+			(uuid "ed53e2a0-5639-44f7-8394-2074713f787e")
+		)
+		(pin "5"
+			(uuid "836e1fb4-620e-471f-8524-eb512343e643")
+		)
+		(pin "6"
+			(uuid "3cf508e5-8bd5-42f6-bc87-3a0801fb2716")
+		)
+		(pin "8"
+			(uuid "b76eb6b4-7a73-421a-8c7c-9741b29adbe2")
+		)
+		(pin "7"
+			(uuid "decc04b2-1e4d-43ae-8cb5-200cb7fa2198")
+		)
+		(pin "4"
+			(uuid "68ef9009-5ea1-4a13-80fc-38da7eea5883")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "DA6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 553 178 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9f8ad5d-4007-4aff-af4c-5346e00d3c3a")
+		(property "Reference" "C29"
+			(at 551.33 177.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 553 178 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 553 178 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 553 178 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 553 178 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a600d04-495e-4ca5-ac0d-f4ff5a0e29e2")
+		)
+		(pin "2"
+			(uuid "2d950084-ddf9-4ddc-8336-7d4a67daa82f")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:R_gost")
+		(at 576 196 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbeb69e3-0d3a-442d-b857-a3866789981a")
+		(property "Reference" "R17"
+			(at 581.81 191.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 576 196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 576 196 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 576 196 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 576 196 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d0c5d93-c3e7-47ae-8906-3c11b07a15de")
+		)
+		(pin "2"
+			(uuid "da57c561-d433-483e-ac8f-2a3142de3e77")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 572 431 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd348ebd-001b-4542-95ce-a546e6493528")
+		(property "Reference" "C32"
+			(at 570.03 430.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 572 431 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 572 431 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 572 431 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 572 431 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ed27f168-b559-4255-a1d5-10f892606536")
+		)
+		(pin "1"
+			(uuid "cc6d61d8-f764-436f-95f6-2c7b1b47cd37")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UGO:C_gost")
+		(at 298.55 406.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe8faf4a-ad15-47db-b8f8-9e8b0883c3c1")
+		(property "Reference" "C9"
+			(at 296.53 406.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 298.55 406.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 298.55 406.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.55 406.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 298.55 406.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0fe07668-b482-4340-b14e-58385c0a2ae4")
+		)
+		(pin "1"
+			(uuid "d2d4fbfc-ed0a-4d3f-a78c-3ca993855b49")
+		)
+		(instances
+			(project "Project_sapr"
+				(path "/5e44759f-c3a3-4c78-a890-fa400a3c2cf8"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "gost_landscape.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WC6IO0nAEYqgjFAc9pUwaAq7rGQvf7J+ej28lrFVi+Ra0Qr0XvBpp0PVIKJocju3inLuMxu
+				WJMBZ+8LfABnAHoALNo2GUZx9Wyv+vGO7GqGEQi0h1NBVbQbu4asUlxtNdu0DUOHHXuz3S4LorjC
+				2E01EGgMV8+VUWw3dfNo1moMH81SFXzgYBtVTc4wznZ5FqxD7VTQq7ccP9gGTKJmWIeqoOVcJzCQ
+				DVVL8SfCVhDFDBBgIzTR1VmonOtDBRi2oWoZrJTd7jX9n7Khe3Oye/9Ms1rmYPfHZufeRc3LSf+n
+				jA0dvmaRc3bwZWv+XePfzun8KCGM/7Cfewzne/kzOnz97xpCdtQnfM1OdoRSwyL6ns9/yCEXdTKt
+				OdMw+9FeW47UoQcp1/Kgs+ReeFeQbod89jhy6K+b4b9sl8309ehUweEadu1UTChOpuuy4U1LLpJO
+				lVtSuhJakbPaCV0eintGDej97uhEuhmOcrWX1TbJb5lclmu6pItyMa5v1WZ1wyIHzIIiICx/hlaE
+				zSDtgyDQGGvlWpxSbsstXdJLQQAB1cP21+/uObTaZWza0c22HZYs36ROMpS0m+FjF6MbeD2fZOgw
+				wZ3rg/x/m2kOFM+HkHnw/SDTPLsg89wrZHil5ZLQ0Wmkp4vQlk4KkREFxB1+PPn90ttfe+myyeUD
+				umO5J3flmlwuU5xO7sejFKfRiSWBbahBUahmpCAFSSHDGnGRwBiC1Z0dskgQgjAUw4AcCGIcAhlC
+				HCFEQAwhhBhjREauHS1W9GqoT2ej9oib6AkUZ1xytemsseM0xpmg8F4VpZ0BeQEinRqXR/LHvcXM
+				zxBtuIUaw8HcSNawPE002iKV23H6UV273ntSIAlTA5N1ZdrndCiVe6uBaRiHYYiKq9GgNrTeNTRf
+				NfUJ/32bWh9/57DHw7uQxz4ULHfFeApmWDLvyo3GHRcRbczSKYx08fXGVh6xzSXRvDpB6BApYY8y
+				6sEbrKBGeegRkrjMrCrrLxeLYxp0HswTCskvDBMXTHE/T+ByeqaPP3qdKzND8/1VD3bUDeJn0Y9z
+				gDZPfEvFjAaAJZpbLUtz3kaxhDe3Snk/4OyFwqFNmJyv7iYuCzQrtB3ykyQKiwBJcw2JxNU32g3/
+				kVAxeFgRdQg12uIi1pyRGPpIH4Xa+rlwJouAD+8zrEHs/Mj95yRfSbzxr/d0A4lRg1eZtAqJQBlT
+				3zHGdrqzkPo5zEAHci6R5WaJ7M8aOMeYTH8ylU/JOjqDbeYB3A/SED8iC0uFsZZlGFxjlGVAmFBW
+				Sg295mriH68MGT6sxAPRzPNjscyiXi6CHelA4On6CGhR0TBQg6X1agUnjA2o+EQ8+EMjOt0EE3O1
+				KZXjk96NgCgPyIEYPya3WbCT53yDvYomiSBeq3cTdXyh8ErjMLtLd9lDpdvsZ53W2mh1ArZ1o9W/
+				pn4MvGAJn4RflojuA5iT3WAhYm7x+ywpKbA6SP8AsvhaPKoyXAVabGD5KqtYRIZHh+1qjSosK7Zk
+				WnUXr26KKLGZ9FmofbXdLWEkLIYWnz6CoHAJ1aETYyMLDNADH7/BUkuXmDcZVyKv/jweRknOlknx
+				InFQ+uGQOpYGNF5vgyfg9IZKup03LTR7DEu7ADGKQmGCR30jTPWNMAURYVmFlx3OQiIuT/p0NIV4
+				k5jbGQYYpblIqpu8oZ6A0nlGAufJ/aGmRk8NeaaILFcB|
+			)
+			(checksum "9180C2D8C133E7F089AA5E43F4962E04")
+		)
+	)
 )

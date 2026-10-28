@@ -1,0 +1,64 @@
+ERC report (2026-10-28T18:02:11, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[net_not_bus_member]: Цепь /UD_N графически подключена к шине /<NO NET>, но она не является членом этой шины
+    ; warning
+    @(163.00 mm, 112.50 mm): Bus to wire entry
+    @(166.00 mm, 54.46 mm): Vertical Bus, length 61.04 mm
+[unconnected_wire_endpoint]: Неподключенный провод ко вводу шины
+    ; warning
+    @(163.00 mm, 112.50 mm): Bus to wire entry
+[net_not_bus_member]: Цепь /UN_P графически подключена к шине /<NO NET>, но она не является членом этой шины
+    ; warning
+    @(165.96 mm, 147.46 mm): Bus to wire entry
+    @(165.96 mm, 147.46 mm): Bus, length 0.057 mm
+[net_not_bus_member]: Цепь /SUP_POS_EN графически подключена к шине /<NO NET>, но она не является членом этой шины
+    ; warning
+    @(165.96 mm, 317.46 mm): Bus to wire entry
+    @(166.00 mm, 147.50 mm): Vertical Bus, length 180.00 mm
+[unconnected_wire_endpoint]: Неподключенный провод ко вводу шины
+    ; warning
+    @(165.96 mm, 317.46 mm): Bus to wire entry
+[net_not_bus_member]: Цепь /SUP_NEG_EN графически подключена к шине /<NO NET>, но она не является членом этой шины
+    ; warning
+    @(165.96 mm, 327.46 mm): Bus to wire entry
+    @(166.00 mm, 147.50 mm): Vertical Bus, length 180.00 mm
+[unconnected_wire_endpoint]: Неподключенный провод ко вводу шины
+    ; warning
+    @(165.96 mm, 327.46 mm): Bus to wire entry
+[unconnected_wire_endpoint]: Неподключенный провод ко вводу шины
+    ; warning
+    @(163.50 mm, 117.50 mm): Bus to wire entry
+[unconnected_wire_endpoint]: Неподключенный провод ко вводу шины
+    ; warning
+    @(163.50 mm, 208.00 mm): Bus to wire entry
+[unconnected_wire_endpoint]: Неподключенный провод ко вводу шины
+    ; warning
+    @(163.50 mm, 213.00 mm): Bus to wire entry
+[unconnected_wire_endpoint]: Неподключенный провод ко вводу шины
+    ; warning
+    @(163.50 mm, 223.00 mm): Bus to wire entry
+[unconnected_wire_endpoint]: Неподключенный провод ко вводу шины
+    ; warning
+    @(163.50 mm, 228.00 mm): Bus to wire entry
+[net_not_bus_member]: Цепь /OTG_FS_DM графически подключена к шине /<NO NET>, но она не является членом этой шины
+    ; warning
+    @(393.96 mm, 139.96 mm): Bus to wire entry
+    @(396.50 mm, 142.50 mm): Vertical Bus, length 10.00 mm
+[net_not_bus_member]: Цепь /OTG_FS_DP графически подключена к шине /<NO NET>, но она не является членом этой шины
+    ; warning
+    @(394.00 mm, 150.00 mm): Bus to wire entry
+    @(396.50 mm, 142.50 mm): Vertical Bus, length 10.00 mm
+[unconnected_wire_endpoint]: Неподключенный провод ко вводу шины
+    ; warning
+    @(394.00 mm, 150.00 mm): Bus to wire entry
+
+ ** ERC messages: 15  Errors 0  Warnings 15
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Symbol pin or wire end off connection grid
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
